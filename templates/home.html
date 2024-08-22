@@ -48,7 +48,7 @@
                   class="btn btn-success"
                   ><i class="fa fa-check"></i> Mark as Done</a
                 >
-                <a href="" class="btn btn-danger"
+                <a href="{% url 'delete_task' task.id %}" class="btn btn-danger"
                   ><i class="fa fa-trash"></i
                 ></a>
                 <a href="{% url 'edit_task' task.id %}" class="btn btn-primary"
